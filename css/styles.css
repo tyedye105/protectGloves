@@ -1,0 +1,44 @@
+body {
+  text-align: center;
+}
+
+.underline{
+  text-decoration: underline;
+}
+
+.textsize-medium p {
+  font-size:  20px;
+}
+
+.largeFont {
+  font-size: 40px;
+  margin-bottom: 5px;
+}
+
+.spacer5  {
+  margin-top:5px;
+  margin-bottom: 5px
+}
+.spacer10  {
+  margin-top:10px;
+  margin-bottom: 10px
+}
+.spacer40  {
+  margin-top:40px;
+  margin-bottom: 40px
+}
+
+.spacerbot40{
+  margin-bottom: 40px;
+}
+.spacerbot80{
+  margin-bottom: 80px;
+}
+
+.green {
+  color:#259434;
+}
+
+.orange{
+  color:#dd7016;
+}

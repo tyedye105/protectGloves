@@ -1,21 +1,26 @@
 body {
   text-align: center;
 }
-
-.stretch1 {
-letter-spacing: 5px;}
+.stetch1 {
+  letter-spacing: 3px;
+}
 
 .stretch2 {
+letter-spacing: 5px;}
+
+.stretch3 {
 letter-spacing: 10px;}
 
 .underline{
   text-decoration: underline;
 }
 
-.itallics {
+.italics {
   font-style: italic;
 }
-
+.tinyFont {
+  font-size: 12px;
+}
 .mediumFont p {
   font-size:  20px;
 }
@@ -27,6 +32,11 @@ letter-spacing: 10px;}
 
 .largeFont2 {
   font-size: 40px;
+  margin-bottom: 5px;
+}
+
+.largeFont3 {
+  font-size: 50px;
   margin-bottom: 5px;
 }
 
@@ -57,6 +67,12 @@ letter-spacing: 10px;}
 .spacertop10{
   margin-top:10px;
 }
+.spacertop25{
+  margin-top:25px;
+}
+.spacertop0{
+  margin-top:0px;
+}
 
 .green {
   color:#259434;
@@ -70,14 +86,61 @@ letter-spacing: 10px;}
   color: #254594;
 }
 
-.grid-container {
+.grid-container1 {
   display: grid;
   grid-template-columns: 200px 200px;
   grid-gap: 200px;
   justify-content: center;
 }
+.grid-containerAddena{
+  display: grid;
+  grid-template-columns: 200px 200px;
+  grid-gap: 80px;
+  justify-content: center;
+  margin-left: 229px;
+  margin-bottom: 0px;
+}
+
+.grid-containerContact{
+  display: grid;
+  grid-template-columns: 400px 200px;
+  grid-gap: 30px;
+  justify-content: center;
+  margin-left: 229px;
+  margin-bottom: 0px;
+}
+
 .orderNow {
   font-size: 25px;
   font-style: italic;
 
+}
+.left {
+  text-align: left;
+  margin-left: 125px;
+}
+
+.blue   {
+  color: blue;
+}
+
+.CliniciansReport h4 {
+  font-size: 11px;
+  margin-bottom: 2px;
+  margin-top: 2px;
+}
+
+.black {
+  color: black;
+}
+
+.purple {
+  color: #c242df;
+}
+
+.savings h3 {
+  font-size: 13px;
+  margin-bottom: 2px;
+  margin-top: 2px;
+  float: right;
 }

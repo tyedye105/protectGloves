@@ -101,6 +101,13 @@ letter-spacing: 10px;}
   margin-bottom: 0px;
 }
 
+.grid-containerBoxes{
+  display: grid;
+  grid-template-columns: 400px 400px;
+  grid-gap: 20px;
+  justify-content: center;
+}
+
 .grid-containerContact{
   display: grid;
   grid-template-columns: 500px 200px;
@@ -138,9 +145,37 @@ letter-spacing: 10px;}
   color: #c242df;
 }
 
+.ocean {
+  background-color: #19adbd;
+}
+
+.coral {
+  background-color: #ff7770;
+}
+
+.hotpink {
+  background: #fd2d69;
+}
+
+.bluemax {
+  background: blue;
+}
+
+.white{
+  color: white;
+}
+
+
 .savings h3 {
   font-size: 13px;
   margin-bottom: 2px;
   margin-top: 2px;
   float: right;
+}
+.box {
+  border: #00ceff;
+  border-radius: 5px;
+  border-style: solid;
+  box-shadow: 5px 5px 5px grey;
+  color: white;
 }

@@ -117,6 +117,24 @@ letter-spacing: 10px;}
   margin-bottom: 0px;
 }
 
+.grid-containerContactFreeGloves{
+  display: grid;
+  grid-template-columns: 500px 500px;
+  grid-gap: 100px;
+  justify-content: left;
+  margin-left: 229px;
+  margin-bottom: 0px;
+}
+
+.grid-containerThreebox{
+  display: grid;
+  grid-template-columns: 200px 200px 200px;
+  grid-gap: 10px;
+  justify-content: left;
+  margin-left: 450px;
+  margin-bottom: 0px;
+}
+
 .orderNow {
   font-size: 25px;
   font-style: italic;
@@ -178,4 +196,16 @@ letter-spacing: 10px;}
   border-style: solid;
   box-shadow: 5px 5px 5px grey;
   color: white;
+}
+
+.highlightYellow {
+  background-color: yellow
+}
+.highlightBlue {
+  background-color: blue;
+}
+
+.indivSpacer5  h4 {
+  margin-top: 5px;
+  margin-bottom: 5px;
 }

@@ -42,19 +42,19 @@ letter-spacing: 10px;}
 
 .spacer5  {
   margin-top:5px;
-  margin-bottom: 5px
+  margin-bottom: 5px;
 }
 .spacer10  {
   margin-top:10px;
-  margin-bottom: 10px
+  margin-bottom: 10px;
 }
 .spacer20  {
   margin-top:20px;
-  margin-bottom: 20px
+  margin-bottom: 20px;
 }
 .spacer40  {
   margin-top:40px;
-  margin-bottom: 40px
+  margin-bottom: 40px;
 }
 
 .spacerbot40{
@@ -183,6 +183,10 @@ letter-spacing: 10px;}
   color: white;
 }
 
+.red{
+  color: red;
+}
+
 
 .savings h3 {
   font-size: 13px;
@@ -199,7 +203,7 @@ letter-spacing: 10px;}
 }
 
 .highlightYellow {
-  background-color: yellow
+  background-color: yellow;
 }
 .highlightBlue {
   background-color: blue;
@@ -208,4 +212,33 @@ letter-spacing: 10px;}
 .indivSpacer5  h4 {
   margin-top: 5px;
   margin-bottom: 5px;
+}
+
+.pg5splitContainer1 {
+  display: flex;
+  justify-content: space-around;
+}
+
+.pg5splitContainer2 {
+  display: flex;
+  justify-content: space-around;
+}
+
+.pg5splitContainer3 {
+  display: flex;
+  justify-content: space-around;
+}
+.pg5splitContainer4 {
+  display: flex;
+  justify-content: space-around;
+  color: red;
+}
+
+.column2 {
+display: flex;
+flex-direction: column;
+}
+
+.spacertop2 {
+  margin-top: 2px
 }

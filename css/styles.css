@@ -24,7 +24,8 @@
 body {
   text-align: center;
 }
-.stetch1 {
+
+.stretch1 {
   letter-spacing: 3px;
 }
 
@@ -46,6 +47,10 @@ letter-spacing: 10px;}
 }
 .mediumFont p {
   font-size:  20px;
+}
+
+.largefont20px {
+  font-size: 20px;
 }
 
 .largeFont1{
@@ -123,25 +128,9 @@ letter-spacing: 10px;}
   color: #003366;
 }
 
-.grid-container1 {
-  display: grid;
-  grid-template-columns: 200px 200px;
-  grid-gap: 200px;
-  justify-content: center;
-}
-.grid-containerAddena{
-  display: grid;
-  grid-template-columns: 200px 200px;
-  grid-gap: 80px;
-  justify-content: center;
-  margin-left: 229px;
-  margin-bottom: 0px;
-}
-.flexContainerAddena{
+.flex-container1 {
   display: flex;
-  justify-content: center;
-  justify-content: space-around;
-  margin-bottom: 0px;
+  justify-content: space-evenly;
 }
 
 .grid-containerBoxes{
@@ -155,9 +144,8 @@ letter-spacing: 10px;}
   display: grid;
   grid-template-columns: 475px 300px;
   justify-content: center;
-  grid-gap: 100px;
+  grid-gap: 200   px;
   margin-bottom: 0px;
-  padding-right: 100px;
 }
 
 .grid-containerContactFreeGloves{
@@ -168,11 +156,9 @@ letter-spacing: 10px;}
 }
 
 .grid-containerThreebox{
-  display: grid;
-  grid-template-columns: 200px 230px 200px;
-  grid-gap: 25px;
-  justify-content: center;
+  display: flex;
   margin-bottom: 0px;
+  justify-content: space-evenly
 }
 
 .orderNow {
@@ -190,9 +176,10 @@ letter-spacing: 10px;}
 }
 
 .CliniciansReport h4 {
-  font-size: 11px;
+  font-size: 25px;
   margin-bottom: 2px;
   margin-top: 2px;
+  padding-left: 10px;
 }
 
 .black {
@@ -234,7 +221,7 @@ letter-spacing: 10px;}
 }
 .box {
   border: #00ceff;
-  border-radius: 5px;
+  border-radius: 35px;
   border-style: solid;
   box-shadow: 5px 5px 5px grey;
   color: white;
@@ -300,12 +287,14 @@ flex-direction: column;
   font-size: 20px;
 }
 
+
 .adennaFlex {
   display: flex;
   justify-content: center;
+
 }
 .adennaItem1 {
-  padding-left: 200px;
+  padding-left: 250px;
   flex-shrink: 0;
 }
 
@@ -325,4 +314,12 @@ flex-direction: column;
 
 .justify {
   text-align: justify;
+}
+
+#koolTouch h4{
+  margin-top: 20px;
+}
+
+.spacerbot20 {
+  margin-bottom: 20px;
 }

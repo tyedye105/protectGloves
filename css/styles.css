@@ -191,7 +191,7 @@ letter-spacing: 10px;}
 }
 
 .ocean {
-  background-color: #029ac9;
+  background-color: #03c3ff;
 }
 
 .coral {
@@ -322,4 +322,8 @@ flex-direction: column;
 
 .spacerbot20 {
   margin-bottom: 20px;
+}
+
+.paddingRight1 {
+  padding-right:0px;
 }

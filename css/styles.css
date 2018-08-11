@@ -153,9 +153,10 @@ letter-spacing: 10px;}
   grid-template-columns: 500px 500px;
   grid-gap: 100px;
   margin-bottom: 0px;
+  justify-content: center;
 }
 
-.grid-containerThreebox{
+.flex-containerThreebox{
   display: flex;
   margin-bottom: 0px;
   justify-content: space-evenly
@@ -176,10 +177,11 @@ letter-spacing: 10px;}
 }
 
 .CliniciansReport h4 {
-  font-size: 25px;
+  font-size: 21px;
   margin-bottom: 2px;
   margin-top: 2px;
-  padding-left: 10px;
+  padding-right: 45px
+
 }
 
 .black {
@@ -288,15 +290,15 @@ flex-direction: column;
 }
 
 
-.adennaFlex {
-  display: flex;
+.adenna-grid {
+  display: grid;
+  grid-template-columns: 530px 340px;
   justify-content: center;
+  padding-left: 310px;
+  grid-gap: 0px;
 
 }
-.adennaItem1 {
-  padding-left: 250px;
-  flex-shrink: 0;
-}
+
 
 .CliniciansReport{
   padding-top: 25px;
@@ -312,13 +314,17 @@ flex-direction: column;
   margin-bottom:0px;
 }
 
+.spacertop20 {
+  margin-top:20px;
+}
+
 .justify {
   text-align: justify;
 }
 
-#koolTouch h4{
-  margin-top: 20px;
-}
+  #koolTouch h4{
+    margin-top: 20px;
+  }
 
 .spacerbot20 {
   margin-bottom: 20px;
@@ -326,4 +332,17 @@ flex-direction: column;
 
 .paddingRight1 {
   padding-right:0px;
+}
+
+.pageBorder {
+  border-style: solid;
+  border-color: black;
+}
+
+.paddingBottom {
+padding-bottom: 150px
+}
+
+.bold {
+  font-weight: bold;
 }

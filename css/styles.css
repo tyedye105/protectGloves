@@ -78,6 +78,11 @@ letter-spacing: 10px;}
   margin-bottom: 5px;
 }
 
+.largeFont6 {
+  font-size: 75px;
+  margin-bottom: 5px;
+}
+
 .spacer5  {
   margin-top:5px;
   margin-bottom: 5px;
@@ -345,4 +350,20 @@ padding-bottom: 150px
 
 .bold {
   font-weight: bold;
+}
+
+.paddingLeft1 {
+  padding-left: 10px;
+}
+.paddingLeft2 {
+  padding-left: 20px;
+}
+.paddingLeft3 {
+  padding-left: 30px;
+}
+.paddingLeft4 {
+  padding-left: 40px;
+}
+.paddingLeft20 {
+  padding-left:200px;
 }

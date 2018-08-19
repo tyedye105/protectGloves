@@ -55,7 +55,7 @@ body {
   margin-left: 1em;
 }
 .marginleft1em {
-  margin-left: 1em;
+  margin-left: 4em;
 }
 
 .marginleft2em {
@@ -90,7 +90,7 @@ body {
 
 .grid-containerBoxes{
   display: grid;
-  grid-template-columns: 600px 600px;
+  grid-template-columns: 400px 400px;
   grid-gap: 20px;
   justify-content: center;
 }
@@ -357,8 +357,8 @@ padding-bottom: 150px
   font-size: 16px;
 }
 
-.text34px{
-  font-size: 34px;
+.text28px{
+  font-size: 28px;
 }
 .text60px{
   font-size: 60px;
@@ -374,4 +374,16 @@ padding-bottom: 150px
 
 .italics {
   font-style: italic;
+}
+.spacerPreserver {
+  width: 1562px;
+}
+
+.titleSPacer {
+  margin-top: 0.5em;
+  margin-bottom: 0;
+}
+
+.text20px {
+font-size: 20px;
 }

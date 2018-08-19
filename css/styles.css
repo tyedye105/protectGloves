@@ -140,7 +140,7 @@ letter-spacing: 10px;}
 
 .grid-containerBoxes{
   display: grid;
-  grid-template-columns: 400px 400px;
+  grid-template-columns: 600px 600px;
   grid-gap: 20px;
   justify-content: center;
 }
@@ -202,7 +202,7 @@ letter-spacing: 10px;}
 }
 
 .coral {
-  background-color: #f88379;
+  background-color: #ff8080;
 }
 
 .hotpink {
@@ -342,6 +342,7 @@ flex-direction: column;
 .pageBorder {
   border-style: solid;
   border-color: black;
+  width: auto;
 }
 
 .paddingBottom {
@@ -367,3 +368,39 @@ padding-bottom: 150px
 .paddingLeft20 {
   padding-left:200px;
 }
+
+.rotate20 {
+  transform:rotate(-5deg);
+}
+
+.jumpPadding {
+  padding-left:inherit;
+  transform: scaleX(1.2);
+  text-align: center;
+  padding-right: 600px;
+  padding-left: 100px;
+}
+
+.savingsPadding {
+  padding-left: 100px;
+  transform: scaleX(1.2);
+  text-align: right;
+  padding-right: 425px;
+
+}
+
+.coralText {
+  color: #ff8080;
+}
+
+.hotPinkText {
+  color: #FF69B4;
+}
+/*.jumpContainer {
+  height: auto;
+  width: 800px;
+}*/
+/*.savingsContainer {
+  height: auto;
+  width: 1000px;
+}*/

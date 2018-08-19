@@ -27,6 +27,12 @@ body {
 }
 
 .largeFont1em {
+  font-size: 1em;
+}
+.largeFont125em {
+  font-size: 1.25em;
+}
+.largeFont15em {
   font-size: 1.5em;
 }
 .largeFont175em {
@@ -34,6 +40,9 @@ body {
 }
 .largeFont2em{
   font-size:  2.0em;
+}
+.largeFont215em{
+  font-size: 2.15em;
 }
 .largeFont3em{
   font-size: 2.5em;
@@ -72,6 +81,7 @@ body {
 .flex-container1 {
   display: flex;
   justify-content: space-evenly;
+  margin-bottom: 3em;
 }
 
 .grid-containerBoxes{
@@ -330,4 +340,16 @@ padding-bottom: 150px
 
 .hotPinkText {
   color: #FF69B4;
+}
+
+.text34px{
+  font-size: 34px;
+}
+
+.underline{
+  text-decoration: underline;
+}
+
+.y50percent{
+  transform: scaleY(1.5);
 }

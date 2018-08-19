@@ -184,7 +184,7 @@ body {
   color: white;
 }
 
-.box h2 {
+.box h3 {
   margin-top: 5px;
   margin-bottom: 5px;
 }
@@ -337,8 +337,11 @@ padding-bottom: 150px
 .paddingLeft4 {
   padding-left: 40px;
 }
-.paddingLeft20 {
+.paddingLeft200 {
   padding-left:200px;
+}
+.paddingRight140{
+  padding-right:140px;
 }
 
 .rotate20 {

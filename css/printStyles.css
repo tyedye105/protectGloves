@@ -87,6 +87,10 @@ body {
   justify-content: space-evenly;
   margin-bottom: 3em;
 }
+.flex-container2 {
+  display: flex;
+  justify-content: space-evenly;
+}
 
 .grid-containerBoxes{
   display: grid;
@@ -292,6 +296,10 @@ flex-direction: column;
 
 .spacertop31 {
   margin-top:31px;
+}
+
+.spacertop40 {
+  margin-top: 40px;
 }
 
 .justify {

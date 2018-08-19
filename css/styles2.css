@@ -390,3 +390,9 @@ padding-bottom: 150px
 .text20px {
 font-size: 20px;
 }
+
+.x50percent {
+  transform: scaleX(2);
+  transform: scale(1.5);
+
+}

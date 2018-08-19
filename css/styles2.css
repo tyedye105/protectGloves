@@ -99,7 +99,7 @@ body {
   display: grid;
   grid-template-columns: 475px 300px;
   justify-content: center;
-  grid-gap: 200   px;
+  grid-gap: 100px;
   margin-bottom: 0px;
 }
 
@@ -131,8 +131,8 @@ body {
   color: blue;
 }
 
-.CliniciansReport h4 {
-  font-size: 21px;
+.CliniciansReport h5 {
+  font-size: 18px;
   margin-bottom: 2px;
   margin-top: 2px;
   padding-right: 45px
@@ -246,10 +246,10 @@ flex-direction: column;
 
 
 .adenna-grid {
-  display: grid;
-  grid-template-columns: 530px 340px;
+  display: flex;;
+  grid-template-columns: 530px 400px;
   justify-content: center;
-  padding-left: 310px;
+  padding-left: 50px;
   grid-gap: 0px;
 
 }
@@ -257,10 +257,10 @@ flex-direction: column;
 
 .CliniciansReport{
   padding-top: 25px;
+  margin-right:25px;
 }
 
 .spacerbot0 {
-  margin-top: 0px;
   margin-bottom: 0px;
 }
 
@@ -288,6 +288,10 @@ flex-direction: column;
 
 .spacertop25 {
   margin-top:25px;
+}
+
+.spacertop31 {
+  margin-top:31px;
 }
 
 .justify {
@@ -348,6 +352,9 @@ padding-bottom: 150px
 
 .hotPinkText {
   color: #FF69B4;
+}
+.text16px{
+  font-size: 16px;
 }
 
 .text34px{

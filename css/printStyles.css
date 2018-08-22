@@ -404,3 +404,16 @@ font-size: 20px;
   transform: scale(1.5);
 
 }
+
+.flex-container{
+  display: flex;
+  justify-content: center;
+}
+
+.spacertop40{
+  margin-top:40px;
+}
+
+.paddingLeft10 {
+  padding-left: 100px;
+}

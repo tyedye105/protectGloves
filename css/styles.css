@@ -113,6 +113,9 @@ letter-spacing: 10px;}
 .spacertop25{
   margin-top:25px;
 }
+.spacertop40{
+  margin-top:40px;
+}
 .spacertop0{
   margin-top:0px;
 }
@@ -395,4 +398,9 @@ padding-bottom: 150px
 
 .hotPinkText {
   color: #FF69B4;
+}
+
+.flex-container{
+  display: flex;
+  justify-content: center;
 }
